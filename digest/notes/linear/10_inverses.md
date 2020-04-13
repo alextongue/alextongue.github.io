@@ -7,7 +7,7 @@ layout: default
 date: 2020-02-17
 ---
 
-# **Inverses**
+# Inverses
 
 ## Left Inverse
 

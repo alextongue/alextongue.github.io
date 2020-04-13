@@ -8,6 +8,7 @@ date: 2020-01-24
 ---
 
 # Fields
+
 A **field** $\mathbb{F}$ shall be a set of elements that has two specific operators defined for that set. Think of operators as black boxes that output something based on an input[^1].
 
 The two operators that must be defined for a field will be called the additive and multiplicative operators. They can be denoted respectively as:

@@ -1,3 +1,38 @@
 //
 // Custom overrides from a user.
 //
+
+
+figure { // from base.scss
+    max-width: 100%;
+    display: table;
+    border: 1px solid $grey-dk-000;
+    margin: 1rem;
+    width: fit-content;
+    //align-self: center; //doesn't seem to work
+    //align-content: center; //doesn't seem to work
+  }
+
+figure img {
+    object-fit: scale-down;
+    //max-height: 120rem;
+    vertical-align: middle;
+    text-align: center;
+    padding: 0.5rem;
+    object-position: center;
+    align-self: center;
+}
+
+figure figcaption {
+    font-size: small;
+    display: table-caption;
+    caption-side: bottom;
+    padding: 0.5rem;
+    //padding-bottom: 0.2rem;
+    //border-top: 1px solid $grey-dk-000;
+    border-bottom: 1px solid $grey-dk-000;
+    border-left: 1px solid $grey-dk-000;
+    border-right: 1px solid $grey-dk-000;
+    background-color: $grey-lt-000;
+    text-align: center;
+}
