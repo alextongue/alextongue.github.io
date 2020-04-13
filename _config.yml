@@ -1,0 +1,26 @@
+title: Academic Indigestion
+# baseurl: "/digest"
+author: Alex Tung
+email: atung323@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  A place for me to let out my thoughts as I read papers, journal entries, textbooks, or things that I've scraped from around the web.
+# social links
+github_username:  alextongue
+
+show_excerpts: false # set to false to remove excerpts on the homepage
+
+theme: "just-the-docs"
+markdown: kramdown
+
+search_enabled: true
+search_tokenizer_separator: /[\s/]+/
+
+plugins:
+  - jekyll-seo-tag
+
+
+
+sass:
+    sass_dir: _sass
+
+footer_content: "Copyright &copy; 2019-2020 Alex Tung. Rescued by <a href=\"https://youtu.be/ybb81Nhm5BY\">Grace</a>. Protected by <a href=\"https://github.com/alextongue/digest/blob/master/LICENSE\">MIT</a>. Styled with <a href=\"https://github.com/pmarsceill/just-the-docs\">Just the Docs</a>. Built with <a href=\"https://github.com/jekyll/jekyll\">Jekyll</a>."
