@@ -19,9 +19,7 @@ search_tokenizer_separator: /[\s/]+/
 plugins:
   - jekyll-seo-tag
 
-
-
 sass:
     sass_dir: _sass
 
-footer_content: "Copyright &copy; 2019-2020 Alex Tung. Rescued by <a href=\"https://youtu.be/ybb81Nhm5BY\">Grace</a>. Protected by <a href=\"https://github.com/alextongue/digest/blob/master/LICENSE\">MIT</a>. Styled with <a href=\"https://github.com/pmarsceill/just-the-docs\">Just the Docs</a>. Built with <a href=\"https://github.com/jekyll/jekyll\">Jekyll</a>."
+footer_content: "Copyright &copy; 2019-2020 Alex Tung. Rescued by <a href=\"https://youtu.be/ybb81Nhm5BY\">Grace</a>. Protected by <a href=\"https://github.com/alextongue/alextongue.github.io/blob/master/LICENSE\">MIT</a>. Styled with <a href=\"https://github.com/pmarsceill/just-the-docs\">Just the Docs</a>. Built with <a href=\"https://github.com/jekyll/jekyll\">Jekyll</a>."
