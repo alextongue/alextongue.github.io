@@ -29,38 +29,38 @@ $$
 $$
 
 The dimensions will be notated as
-$$\begin{bmatrix} \mathbf{x}\_{(1)} \\ \mathbf{x}\_{(2)}\end{bmatrix} \in \mathbb{R}^{2}$$ 
+$$\begin{bmatrix} \mathbf{x}_{(1)} \\ \mathbf{x}_{(2)}\end{bmatrix} \in \mathbb{R}^{2}$$ 
 
 ## **Step 1:** Set a Decision Boundary
 
-To begin, let's construct the first tree branch by drawing a boundary on the first dimension. How about we arbitrarily choose the boundary $t_1 = 5$ and apply it to $\mathbf{x}\_{(1)}$? That seems like a nice median value of the first dimension.
+To begin, let's construct the first tree branch by drawing a boundary on the first dimension. How about we arbitrarily choose the boundary $t_1 = 5$ and apply it to $\mathbf{x}_{(1)}$? That seems like a nice median value of the first dimension.
 
 ## **Step 2:** Split Data Based on the Decision
 
-So let's take our incoming set (which is, in this case, the original dataset) and call it $\mathcal{S\_{t_1}}$ The boundary $t_1$ will split $\mathcal{S\_{t_1}}$ into the following two subsets:
+So let's take our incoming set (which is, in this case, the original dataset) and call it $\mathcal{S_{t_1}}$ The boundary $t_1$ will split $\mathcal{S_{t_1}}$ into the following two subsets:
 
 $$
-\mathcal{S}\_{t_1,1}=\begin{Bmatrix}\mathbf{x}_i | \mathbf{x}\_{i(1)}\leq t_1,\; i\in[1,N]\end{Bmatrix}
+\mathcal{S}_{t_1,1}=\begin{Bmatrix}\mathbf{x}_i | \mathbf{x}_{i(1)}\leq t_1,\; i\in[1,N]\end{Bmatrix}
 $$
 
 $$
-\mathcal{S}\_{t_1,2}=\begin{Bmatrix}\mathbf{x}_i | \mathbf{x}\_{i(1)} > t_1,\; i\in[1,N]\end{Bmatrix}
+\mathcal{S}_{t_1,2}=\begin{Bmatrix}\mathbf{x}_i | \mathbf{x}_{i(1)} > t_1,\; i\in[1,N]\end{Bmatrix}
 $$
 
 By plugging in our set $\mathcal{D}$ and boundary $t_1=5$, we have
 
 $$
-\mathcal{S}\_{t_1,1}=\begin{Bmatrix}\mathbf{x}_i | \mathbf{x}\_{i(1)}\leq 5,\; i\in[1,6]\end{Bmatrix}
+\mathcal{S}_{t_1,1}=\begin{Bmatrix}\mathbf{x}_i | \mathbf{x}_{i(1)}\leq 5,\; i\in[1,6]\end{Bmatrix}
 $$
 
 $$
-\mathcal{S}\_{t_1,2}=\begin{Bmatrix}\mathbf{x}_i | \mathbf{x}\_{i(1)} > 5,\; i\in[1,6]\end{Bmatrix}
+\mathcal{S}_{t_1,2}=\begin{Bmatrix}\mathbf{x}_i | \mathbf{x}_{i(1)} > 5,\; i\in[1,6]\end{Bmatrix}
 $$
 
 which is evaluated to the following:
 
 $$
-\mathcal{S}\_{t_1,1}=\begin{Bmatrix}
+\mathcal{S}_{t_1,1}=\begin{Bmatrix}
 \begin{bmatrix}1\\10\end{bmatrix},
 \begin{bmatrix}1\\88\end{bmatrix},
 \begin{bmatrix}2\\23\end{bmatrix},
@@ -69,7 +69,7 @@ $$
 $$
 
 $$
-\mathcal{S}\_{t_1,2}=\begin{Bmatrix}
+\mathcal{S}_{t_1,2}=\begin{Bmatrix}
 \begin{bmatrix}8\\109\end{bmatrix},
 \begin{bmatrix}9\\74\end{bmatrix}
 \end{Bmatrix}
@@ -85,20 +85,20 @@ We want to know how good each branch does in classifying the data that was throw
 
 Because we want to penalize losses for all distances -- positive or negative -- let's take the absolute value of these differences $(\vert\cdot\vert)$ before adding them up. That will make things less confusing. To avoid this source of confusion in the future, we will use norms. Think of a norm as a distance with some nice properties that make it easier to intuitively interpret as distance. In this case, taking the sum of absolute values is called the **L1 norm**, $\Vert \cdot \Vert_1$.
 
-So for our first set $\mathcal{S}\_{t_1,1}$, let's take the average of its member values' across the first dimension $\mathbf{x}\_{(1)}$ 
+So for our first set $\mathcal{S}_{t_1,1}$, let's take the average of its member values' across the first dimension $\mathbf{x}_{(1)}$ 
 
 $$
-\overline{\mathcal{S}\_{t_1,1}} = \frac{1+1+2+4}{4}=2
+\overline{\mathcal{S}_{t_1,1}} = \frac{1+1+2+4}{4}=2
 $$
 
 then find the absolute-value differences between each value and that mean and take its L1 norm
 
 $$
-\mathrm{Loss}(\mathcal{S}\_{t_1,1}) = \Vert \mathbf{x\_{(1)}} - \overline{\mathcal{S}\_{t_1,1}}\Vert\_{1}\; \mathrm{across}\; {\mathbf{x}\in \mathcal{S}\_{t_1,1}}
+\mathrm{Loss}(\mathcal{S}_{t_1,1}) = \Vert \mathbf{x_{(1)}} - \overline{\mathcal{S}_{t_1,1}}\Vert_{1}\; \mathrm{across}\; {\mathbf{x}\in \mathcal{S}_{t_1,1}}
 $$
 
 $$
-\mathrm{Loss}(\mathcal{S}\_{t_1,1}) = \sum\_{\mathbf{x}\in \mathcal{S}\_{t_1,1}}{\vert\mathbf{x\_{(1)}} - \overline{\mathcal{S}\_{t_1,1}}\vert}
+\mathrm{Loss}(\mathcal{S}_{t_1,1}) = \sum_{\mathbf{x}\in \mathcal{S}_{t_1,1}}{\vert\mathbf{x_{(1)}} - \overline{\mathcal{S}_{t_1,1}}\vert}
 $$
 
 $$
@@ -109,14 +109,14 @@ $$ = 1+1+0+2 $$
 
 $$ =4 $$
 
-Let's do the same thing for the $\mathcal{S}\_{t_1,2}$:
+Let's do the same thing for the $\mathcal{S}_{t_1,2}$:
 
 $$
-\overline{\mathcal{S}\_{t_1,2}} = \frac{8+9}{2} = 8.5
+\overline{\mathcal{S}_{t_1,2}} = \frac{8+9}{2} = 8.5
 $$
 
 $$
-\mathrm{Loss}(\mathcal{S}\_{t_1,2}) = \sum\_{\mathbf{x}\in \mathcal{S}\_{t_1,2}}{\vert\mathbf{x\_{(1)}} - \overline{\mathcal{S}\_{t_1,2}}\vert}
+\mathrm{Loss}(\mathcal{S}_{t_1,2}) = \sum_{\mathbf{x}\in \mathcal{S}_{t_1,2}}{\vert\mathbf{x_{(1)}} - \overline{\mathcal{S}_{t_1,2}}\vert}
 $$
 
 $$ = \vert 8-8.5\vert + \vert 9-8.5\vert $$
@@ -130,14 +130,14 @@ $$ =1 $$
 So far, we have branch losses of 4 and 1. We know these values will be well-conditioned because they will always be positive, and they accumulate (as our idea of a loss should). But how do we interpret two numbers when we're trying to evaluate a single boundary? How can we turn these two numbers into one? Let's add them up!
 
 $$
-\mathrm{Loss\_{T}}(\mathcal{S\_{t_1}}) = \mathrm{Loss}(\mathcal{S}\_{t_1,1}) + \mathrm{Loss}(\mathcal{S}\_{t_1,2}) = 4 + 1 = 5
+\mathrm{Loss_{T}}(\mathcal{S_{t_1}}) = \mathrm{Loss}(\mathcal{S}_{t_1,1}) + \mathrm{Loss}(\mathcal{S}_{t_1,2}) = 4 + 1 = 5
 $$
 
 Let's call this aggregate loss the **total loss** and denote it with that subscripted little uppercase T. In this example, the total loss was just the sum of branch losses, but we can use a more complex function in the future.
 
-So we know that this total loss is ultimately derived from the sum of differences between each group's value and its mean value. And we want to find the boundary that gives us the lowest total loss. But is 5 the lowest number? Not sure. Let's shift the boundary $t_1$ around so that different data points move between branches $\mathcal{S}\_{t_1,1}$ and $\mathcal{S}\_{t_1,2}$. All of these tweaks (including the above one) is summarized in the following table:
+So we know that this total loss is ultimately derived from the sum of differences between each group's value and its mean value. And we want to find the boundary that gives us the lowest total loss. But is 5 the lowest number? Not sure. Let's shift the boundary $t_1$ around so that different data points move between branches $\mathcal{S}_{t_1,1}$ and $\mathcal{S}_{t_1,2}$. All of these tweaks (including the above one) is summarized in the following table:
 
-|$$t_1$$ | $$\mathcal{S}\_{t_1,1}$$|$$\mathcal{S}\_{t_1,2}$$ | $$\mathrm{Loss}(\mathcal{S}\_{t_1,1})$$ | $$\mathrm{Loss}(\mathcal{S}\_{t_1,1})$$ | $$\mathrm{Loss\_{T}}(\mathcal{S\_{t_1}})$$|
+|$$t_1$$ | $$\mathcal{S}_{t_1,1}$$|$$\mathcal{S}_{t_1,2}$$ | $$\mathrm{Loss}(\mathcal{S}_{t_1,1})$$ | $$\mathrm{Loss}(\mathcal{S}_{t_1,1})$$ | $$\mathrm{Loss_{T}}(\mathcal{S_{t_1}})$$|
 |:-:|:-:|:-:|:-:|:-:|:-:|
 | $$-1000$$ | $$\begin{Bmatrix}\\\end{Bmatrix}$$ | $$\begin{Bmatrix} \begin{bmatrix}1\\10\end{bmatrix}, \begin{bmatrix}1\\88\end{bmatrix}, \begin{bmatrix}2\\23\end{bmatrix}, \begin{bmatrix}8\\109\end{bmatrix}, \begin{bmatrix}4\\76\end{bmatrix}, \begin{bmatrix}9\\74\end{bmatrix} \end{Bmatrix}$$ |$$0$$|$$4.1667$$|$$4.1667$$|
 | $$0$$ | $$\begin{Bmatrix}\\\end{Bmatrix}$$ | $$\begin{Bmatrix} \begin{bmatrix}1\\10\end{bmatrix}, \begin{bmatrix}1\\88\end{bmatrix}, \begin{bmatrix}2\\23\end{bmatrix}, \begin{bmatrix}8\\109\end{bmatrix}, \begin{bmatrix}4\\76\end{bmatrix}, \begin{bmatrix}9\\74\end{bmatrix} \end{Bmatrix}$$ |$$0$$|$$4.1667$$|$$4.1667$$|
@@ -163,11 +163,11 @@ Think of **regularization** as adding constraints that measure different parts o
 
 - We want to fit data with polynomial coefficients $\mathbf{p} = \begin{Bmatrix} p_0, p_1, p_2, \cdots, p_n\end{Bmatrix}$,[^2] but we don't want to overfit data with a function that is too complex (or "wiggly"). So we will introduce the L2 norm of the polynomial, $\Vert\mathbf{p}\Vert_2$. If this norm is new to you, you just need to know that the L2 norm returns a larger value for "smoother" vectors[^3] (e.g. a vector whose coefficient values are spread out more evenly)
 
-$$\Vert \mathbf{p} \Vert_2 = \sqrt{\sum\_{i=0}^{N}{p_i^2}}$$
+$$\Vert \mathbf{p} \Vert_2 = \sqrt{\sum_{i=0}^{N}{p_i^2}}$$
 
 - We want to split our data into groups, but we want the splits to result in groups that are close in size. So we will introduce a term $R$ that subtracts from the loss if the difference in size between sets is small:
 
-$$R(\mathcal{S}\_{t_1,1}, \mathcal{S}\_{t_1,2}) = \vert \mathrm{size}(\mathcal{S}\_{t_1,1}) - \mathrm{size}(\mathcal{S}\_{t_1,2})\vert$$
+$$R(\mathcal{S}_{t_1,1}, \mathcal{S}_{t_1,2}) = \vert \mathrm{size}(\mathcal{S}_{t_1,1}) - \mathrm{size}(\mathcal{S}_{t_1,2})\vert$$
 
 That second example describes our case pretty well. Let's use that. As a reminder, our original loss function takes the first dimension and measures each member's distance from the set mean:
 
@@ -180,17 +180,17 @@ $$\mathrm{bigger\;size\;difference} \Rightarrow \mathrm{bad} \Rightarrow \mathrm
 It looks like we can just add it to our loss function! But if we look at the range of this regularization parameter, it looks pretty large. We don't want this parameter to dominate the total loss function and overshadow our main distance-from-mean function. So let's scale $D$ down by multiplying it by $\lambda = 0.25$. This finally results in the following total loss:
 
 $$
-\mathrm{Loss\_{T}}(\mathcal{S\_{t_1}}) = \mathrm{Loss}(\mathcal{S}\_{t_1,1}) + \mathrm{Loss}(\mathcal{S}\_{t_1,2}) + \lambda R(\mathcal{S}\_{t_1,1}, \mathcal{S}\_{t_1,2})
+\mathrm{Loss_{T}}(\mathcal{S_{t_1}}) = \mathrm{Loss}(\mathcal{S}_{t_1,1}) + \mathrm{Loss}(\mathcal{S}_{t_1,2}) + \lambda R(\mathcal{S}_{t_1,1}, \mathcal{S}_{t_1,2})
 $$
 
 $$
-\mathrm{Loss\_{T}}(\mathcal{S\_{t_1}}) = \mathrm{Loss}(\mathcal{S}\_{t_1,1}) + \mathrm{Loss}(\mathcal{S}\_{t_1,2}) + 0.25 R(\mathcal{S}\_{t_1,1}, \mathcal{S}\_{t_1,2})
+\mathrm{Loss_{T}}(\mathcal{S_{t_1}}) = \mathrm{Loss}(\mathcal{S}_{t_1,1}) + \mathrm{Loss}(\mathcal{S}_{t_1,2}) + 0.25 R(\mathcal{S}_{t_1,1}, \mathcal{S}_{t_1,2})
 $$
 
 
 Now let's reconstruct that table of boundaries from above, now with the regularization parameter.
 
-|$$t_1$$ | $$\mathcal{S}\_{t_1,1}$$|$$\mathcal{S}\_{t_1,2}$$ | $$\mathrm{Loss}(\mathcal{S}\_{t_1,1})$$ | $$\mathrm{Loss}(\mathcal{S}\_{t_1,1})$$ | $$\lambda R(\mathcal{S}\_{t_1,1}, \mathcal{S}\_{t_1,2})$$ | $$\mathrm{Loss\_{T}}(\mathcal{S\_{t_1}})$$ with $$\lambda D$$|
+|$$t_1$$ | $$\mathcal{S}_{t_1,1}$$|$$\mathcal{S}_{t_1,2}$$ | $$\mathrm{Loss}(\mathcal{S}_{t_1,1})$$ | $$\mathrm{Loss}(\mathcal{S}_{t_1,1})$$ | $$\lambda R(\mathcal{S}_{t_1,1}, \mathcal{S}_{t_1,2})$$ | $$\mathrm{Loss_{T}}(\mathcal{S_{t_1}})$$ with $$\lambda D$$|
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|
 | $$-1000$$ | $$\begin{Bmatrix}\\\end{Bmatrix}$$ | $$\begin{Bmatrix} \begin{bmatrix}1\\10\end{bmatrix}, \begin{bmatrix}1\\88\end{bmatrix}, \begin{bmatrix}2\\23\end{bmatrix}, \begin{bmatrix}8\\109\end{bmatrix}, \begin{bmatrix}4\\76\end{bmatrix}, \begin{bmatrix}9\\74\end{bmatrix} \end{Bmatrix}$$ |$$0$$|$$4.1667$$|$$(9)(0.25)=2.25$$|$$6.4167$$|
 | $$0$$ | $$\begin{Bmatrix}\\\end{Bmatrix}$$ | $$\begin{Bmatrix} \begin{bmatrix}1\\10\end{bmatrix}, \begin{bmatrix}1\\88\end{bmatrix}, \begin{bmatrix}2\\23\end{bmatrix}, \begin{bmatrix}8\\109\end{bmatrix}, \begin{bmatrix}4\\76\end{bmatrix}, \begin{bmatrix}9\\74\end{bmatrix} \end{Bmatrix}$$ |$$0$$|$$4.1667$$|$$(9)(0.25)=2.25$$|$$6.4167$$|
@@ -224,15 +224,15 @@ $$t_1$$
 
 - **Step 2:** Split data into branches based on the decision:
 
-$$\mathcal{S}\_{t_1} = \begin{Bmatrix} \mathcal{S}\_{t_1,1}, \mathcal{S}\_{t_1,2}\end{Bmatrix}$$
+$$\mathcal{S}_{t_1} = \begin{Bmatrix} \mathcal{S}_{t_1,1}, \mathcal{S}_{t_1,2}\end{Bmatrix}$$
   
 - **Step 3:** Calculate a branch loss for each set.
 
-$$\mathrm{Loss}(\mathcal{S}\_{t_1,1}),\;\mathrm{Loss}(\mathcal{S}\_{t_1,1})$$
+$$\mathrm{Loss}(\mathcal{S}_{t_1,1}),\;\mathrm{Loss}(\mathcal{S}_{t_1,1})$$
 
 - **Steps 4, 5:** Calculate total loss that combines branch losses with regularization.
 
-$$\mathrm{Loss}_\mathrm{T}(\mathcal{S}\_{t_1}) = \mathrm{Loss}(\mathcal{S}\_{t_1,1}) + \mathrm{Loss}(\mathcal{S}\_{t_1,2}) + \lambda R(\mathcal{S}\_{t_1,1}, \mathcal{S}\_{t_1,2})$$
+$$\mathrm{Loss}_\mathrm{T}(\mathcal{S}_{t_1}) = \mathrm{Loss}(\mathcal{S}_{t_1,1}) + \mathrm{Loss}(\mathcal{S}_{t_1,2}) + \lambda R(\mathcal{S}_{t_1,1}, \mathcal{S}_{t_1,2})$$
 
 - **Step 6:** Repeat Steps 1-5; change values of the decision boundary until the minimum total loss is achieved.
 
