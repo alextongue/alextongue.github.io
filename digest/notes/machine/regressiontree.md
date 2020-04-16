@@ -85,7 +85,7 @@ We want to know how good each branch does in classifying the data that was throw
 
 Because we want to penalize losses for all distances -- positive or negative -- let's take the absolute value of these differences $(\vert\cdot\vert)$ before adding them up. That will make things less confusing. To avoid this source of confusion in the future, we will use norms. Think of a norm as a distance with some nice properties that make it easier to intuitively interpret as distance. In this case, taking the sum of absolute values is called the **L1 norm**, $\Vert \cdot \Vert_1$.
 
-So for our first set $\mathcal{S}_{t_1,1}$, let's take the average of its member values' across the first dimension $\mathbf{x}_{(1)}$ 
+So for our first set $\mathcal{S}\_{t_1,1}$, let's take the average of its member values' across the first dimension $\mathbf{x}_{(1)}$ 
 
 $$
 \overline{\mathcal{S}_{t_1,1}} = \frac{1+1+2+4}{4}=2
