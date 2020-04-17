@@ -2,36 +2,90 @@
 // Custom overrides from a user.
 //
 
-figure { // from base.scss
-    max-width: 100%;
-    display: table;
-    border: 1px solid $grey-dk-000;
-    margin: 1rem;
-    width: fit-content;
-    //align-self: center; //doesn't seem to work
-    //align-content: center; //doesn't seem to work
-  }
+@media(min-width: 31.25rem) {
+    figure { // from base.scss
+        //max-width: 70%;
+        display: table;
+        //border: 1px solid $grey-dk-000;
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
+        //margin-left: 10%; //COMPACT
+        //width: fit-content;
+        width: 100%; // COMPACT
+        text-align-last: center;
+        //text-align: center; // ???
+        //align-self: center; //doesn't align img
+        //align-content: center; //doesn't align img
+        //align-items: center; //doesn't align img
+    }
 
-figure img {
-    object-fit: scale-down;
-    //max-height: 120rem;
-    vertical-align: middle;
-    text-align: center;
-    padding: 0.5rem;
-    object-position: center;
-    align-self: center;
+    figure img {
+        object-fit: scale-down;
+        vertical-align: middle;
+        text-align: center;
+        padding: 1rem;
+        max-height: 500px;
+        border: 1px solid $grey-dk-000;
+        width: 100%; // compact layout
+        //object-position: center;
+        //align-self: center;
+    }
+
+    figure figcaption {
+        font-size: small;
+        display: table-caption;
+        caption-side: bottom;
+        padding: 0.5rem;
+        border-bottom: 1px solid $grey-dk-000;
+        border-left: 1px solid $grey-dk-000;
+        border-right: 1px solid $grey-dk-000;
+        background-color: $grey-lt-000;
+        text-align: center;
+        width: 100%; // compact layout
+    }
 }
 
-figure figcaption {
-    font-size: small;
-    display: table-caption;
-    caption-side: bottom;
-    padding: 0.5rem;
-    border-bottom: 1px solid $grey-dk-000;
-    border-left: 1px solid $grey-dk-000;
-    border-right: 1px solid $grey-dk-000;
-    background-color: $grey-lt-000;
-    text-align: center;
+@media(min-width: 66.5rem) {
+    figure { // from base.scss
+        //max-width: 70%;
+        display: table;
+        //border: 1px solid $grey-dk-000;
+        margin: 2rem;
+        margin-left: 10%;
+        //width: fit-content;
+        width: 80%;
+        text-align-last: center;
+        //text-align: center; // ???
+        //align-self: center; //doesn't align img
+        //align-content: center; //doesn't align img
+        //align-items: center; //doesn't align img
+      }
+
+    figure img {
+        object-fit: scale-down;
+        vertical-align: middle;
+        text-align: center;
+        padding: 1rem;
+        max-height: 500px;
+        border: 1px solid $grey-dk-000;
+        width: 80%;
+        //object-position: center;
+        //align-self: center;
+    }
+
+    figure figcaption {
+        font-size: small;
+        display: table-caption;
+        caption-side: bottom;
+        padding: 0.5rem;
+        border-bottom: 1px solid $grey-dk-000;
+        border-left: 1px solid $grey-dk-000;
+        border-right: 1px solid $grey-dk-000;
+        background-color: $grey-lt-000;
+        text-align: center;
+        width: 80%;
+        margin-left: 10%;
+    }
 }
 
 
