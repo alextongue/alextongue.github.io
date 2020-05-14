@@ -210,7 +210,7 @@ Now it looks like our lowest total loss is achieved with our original value $t=5
 
 > **Question:** Similarly to the above question: Because we're working with discrete data points, It also seems like there are entire ranges of boundaries that result in the same division of branches. For example, $t_1=\begin{Bmatrix} (-\infty, 1), [9, \infty)\end{Bmatrix}$ seem to split our training set into the same branches. Same thing happens for range as well as $t_1=\begin{Bmatrix} [1, 2)\end{Bmatrix}$, $t_1=\begin{Bmatrix} [2, 4)\end{Bmatrix}$, and so on. Because our loss function only depends on splitting up discrete training points, how do we know that where between points to draw the boundaries?
 > 
-> **Answer:** We can implement other regularization functions that depend on relative distances between nearby points. For example, we can take a boundary and weight its total loss depending on its distances between nearby points.
+> **Answer:** We can implement other regularization functions that depend on relative distances between nearby points. For example, we can take a boundary and weight its total loss depending on its distances between nearby points. This type of regularization that aims to converge on the best linear separator in a range of "already good values" has actually become a foundational part of building a support vector machine (SVM), and is known as margin optimization.
 > 
 > In effect, this parameter will turn an otherwise flat loss region (see figure) into a continuous surface, with the lowest value being at contours of equal distance between training points (k-nearest neighbor).
 
