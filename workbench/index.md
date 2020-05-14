@@ -8,3 +8,7 @@ date: 2020-04-08
 ---
 
 The things I buy, make, and take apart. Start navigating on the left!
+
+<figure>
+  <img src="https://github.com/alextongue/alextongue.github.io/blob/master/workbench/resources/m85/dark2.jpg?raw=true">
+</figure>
