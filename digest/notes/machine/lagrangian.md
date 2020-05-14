@@ -93,7 +93,7 @@ Now, we substitute these definitions back into the loss function for the optimiz
 
 |LHS||RHS|Explanation|
 |--:|:-:|:--|:--|
-| $$\tilde{L}$$ | $$=$$ | $$\frac{1}{2}\tilde{\mathbf{w}} \|^2 - \sum_{n=1}^N a_n t_n \tilde{\mathbf{w}}^\mathrm{T}\mathbf{x}_n - b\sum_{n=1}^N{a_n t_n} + \sum_{n=1}^N a_n$$ | loss function |
+| $$\tilde{L}$$ | $$=$$ | $$\frac{1}{2}\tilde{\Vert\mathbf{w}}\Vert^2 - \sum_{n=1}^N a_n t_n \tilde{\mathbf{w}}^\mathrm{T}\mathbf{x}_n - b\sum_{n=1}^N{a_n t_n} + \sum_{n=1}^N a_n$$ | loss function |
 ||$$=$$| $$\frac{1}{2} \tilde{\mathbf{w}}^\mathrm{T} \tilde{\mathbf{w}} - \sum_{n=1}^N a_n t_n \tilde{\mathbf{w}}^\mathrm{T}\mathbf{x}_n - b\sum_{n=1}^N{a_n t_n} + \sum_{n=1}^N a_n$$ | expand $$\|\mathbf{w}\|^2$$ |
 ||$$=$$| $$\frac{1}{2} \bigg(\sum_{m=1}^N{a_m t_m \mathbf{x}_m}\bigg) \bigg(\sum_{n=1}^N{a_n t_n \mathbf{x}_n}\bigg) - \sum_{n=1}^N a_n t_n \bigg(\sum_{m=1}^N{a_m t_m \mathbf{x}_m}\bigg) \mathbf{x}_n - b\sum_{n=1}^N{a_n t_n} + \sum_{n=1}^N a_n$$ | $$\tilde{\mathbf{w}} = \sum_{n=1}^N{a_n t_n \mathbf{x}_n}$$|
 ||$$=$$| $$\frac{1}{2} \sum_{n=1}^N\sum_{m=1}^N{a_n a_m t_n t_m \mathbf{x}_n \mathbf{x}_m} - \sum_{n=1}^N \sum_{m=1}^N {a_n a_m t_n t_m \mathbf{x}_n \mathbf{x}_m} - b\sum_{n=1}^N{a_n t_n} + \sum_{n=1}^N a_n$$ | rearrange sums|
