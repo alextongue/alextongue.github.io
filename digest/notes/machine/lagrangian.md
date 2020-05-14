@@ -99,7 +99,7 @@ Now, we substitute these definitions back into the loss function for the optimiz
 ||$$=$$| $$\frac{1}{2} \sum_{n=1}^N\sum_{m=1}^N{a_n a_m t_n t_m \mathbf{x}_n \mathbf{x}_m} - \sum_{n=1}^N \sum_{m=1}^N {a_n a_m t_n t_m \mathbf{x}_n \mathbf{x}_m} - b\sum_{n=1}^N{a_n t_n} + \sum_{n=1}^N a_n$$ | rearrange sums|
 ||$$=$$| $$-\frac{1}{2} \sum_{n=1}^N\sum_{m=1}^N{a_n a_m t_n t_m \mathbf{x}_n \mathbf{x}_m} - b\sum_{n=1}^N{a_n t_n} + \sum_{n=1}^N a_n$$ | subtract common terms |
 ||$$=$$| $$-\frac{1}{2} \sum_{n=1}^N\sum_{m=1}^N{a_n a_m t_n t_m \mathbf{x}_n \mathbf{x}_m} - b(0) + \sum_{n=1}^N a_n$$ | $$\sum_{n=1}^N{a_n t_n}=0$$ |
-||$$=$$| $$\sum_{n=1}^N a_n -\frac{1}{2} \sum_{n=1}^N\sum_{m=1}^N{a_n a_m t_n t_m \mathbf{x}_n \mathbf{x}_m}$$ | $$rearrange terms$$ |
+||$$=$$| $$\sum_{n=1}^N a_n -\frac{1}{2} \sum_{n=1}^N\sum_{m=1}^N{a_n a_m t_n t_m \mathbf{x}_n \mathbf{x}_m}$$ | rearrange terms |
 
 Now we parameterize with respect to the vector $\mathbf{a}$:
 
