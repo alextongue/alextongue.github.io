@@ -20,7 +20,7 @@ $$
 
 $$(2)\;\;\;g(x,y,z)=k$$
 
-Recall that the gradient of a function of some numebr of variables contains that same number of components. In the above case, equation $(1)$ actually has three components that must be equal, resulting in four equations:
+Recall that the gradient of a function of some number of variables contains that same number of components. In the above case, equation $(1)$ actually has three components that must be equal, resulting in four equations:
 
 $$(\mathrm{1a})\;\;\;f_x=\lambda g_x$$
 
