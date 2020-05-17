@@ -1,5 +1,5 @@
 ---
-title: "Lagrangian Multiplier"
+title: Lagrangian Multiplier
 date: 2020-05-13
 nav_order: 5
 parent: Machine Learning, Data Science

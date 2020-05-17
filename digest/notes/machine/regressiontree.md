@@ -1,5 +1,5 @@
 ---
-title: "Regression Tree Classifier"  
+title: Regression Tree Classifier 
 date: 2020-04-09
 nav_order: 3
 parent: Machine Learning, Data Science

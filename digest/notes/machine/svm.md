@@ -1,5 +1,5 @@
 ---
-title: "Support Vector Machine"
+title: Support Vector Machine
 date: 2020-05-13
 nav_order: 4
 parent: Machine Learning, Data Science
