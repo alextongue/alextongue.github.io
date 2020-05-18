@@ -1,24 +1,22 @@
 ---
 title: Literature
-layout: default
+custom_title: true
 nav_order: 1
 has_children: true
 has_toc: false
-date: 2019-09-16
 ---
 
-# Welcome!
-
-### We'll see how far this lil blog goes.
+<center>
+<h1>Literature Digest</h1>
+Welcome! This is where I'll be keeping any thoughtful bites or chews that I come across.
+<br><br>Mostly, I'll be airing out my thoughts as I go through different papers from IEEE, JASA, AES.
+</center>
 
 -----
 
 _**Context:** 11:59PM EST. I'm on vacation in New York for about three weeks. I'm currently sitting in the the living room of my aunt's apartment in Queens._
 
 -----
-
-This is a place for me to air out my thoughts as I go through different papers from IEEE, JASA, AES.
-
 
 ## Here's a textbook.
 A lot of the AES papers will be somewhat focused around my reading through [Immersive Sound: The Art and Science of Binaural and Multichannel Audio](https://doi.org/10.4324/9781315707525).

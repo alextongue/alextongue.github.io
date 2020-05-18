@@ -16,6 +16,13 @@ markdown: kramdown
 search_enabled: true
 search_tokenizer_separator: /[\s/]+/
 
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      layout: default
+
 plugins:
   - jekyll-seo-tag
 

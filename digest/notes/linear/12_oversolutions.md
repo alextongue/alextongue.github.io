@@ -1,13 +1,15 @@
 ---
 title: "12: Overdetermined Systems"
+custom_title: true
+layout: notes
 parent: Linear Algebra
 grand_parent: Notes
 nav_order: 12
-layout: default
-date: 2020-02-18
 ---
 
 # Overdetermined Solutions to $Ax=b$
+
+-----
 
 Sometimes there is no solution of $x$ to $Ax=b$. The matrix A is usually tall.
 

@@ -1,13 +1,12 @@
 ---
+layout: notes
 title: "1: Fields, Vector Fields"
+custom_title: Fields
+layout: notes
 parent: Linear Algebra
 grand_parent: Notes
 nav_order: 1
-layout: default
-date: 2020-01-24
 ---
-
-# Fields
 
 A **field** $\mathbb{F}$ shall be a set of elements that has two specific operators defined for that set. Think of operators as black boxes that output something based on an input[^1].
 

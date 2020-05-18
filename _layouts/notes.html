@@ -76,7 +76,6 @@ layout: table_wrappers
           {% endunless %}
           <div id="main-content" class="page-content" role="main">
             {% if site.heading_anchors != false %}
-              <center>
                 {% if page.custom_title != true %}
                   {% if page.custom_title == nil %}
                     <h1>{{ page.title }}</h1>
@@ -84,13 +83,9 @@ layout: table_wrappers
                   <h1>{{ page.custom_title }}</h1>
                   {% endif %}
                 {% endif %}
-                {% if page.date != nil %}
-                  <h2>{{ page.date | date: "%B %-d, %Y" }}</h2>
-                {% endif %}
                 {% if page.custom_title != true %}
                   <hr>
                 {% endif %}
-              </center>
               {% include vendor/anchor_headings.html html=content beforeHeading="true" anchorBody="<svg viewBox=\"0 0 16 16\" aria-hidden=\"true\"><use xlink:href=\"#link\"></use></svg>" anchorClass="anchor-heading" %}
             {% else %}
               {{ content }}
@@ -114,11 +109,7 @@ layout: table_wrappers
           {% if site.footer_content != nil %}
             <hr>
             <footer role="contentinfo">
-              <center>
-                <div class="gallery-wrap">
-                  <p class="text-small text-grey-dk-000 mb-0">{{ site.footer_content }}</p>
-                </div>
-              </center>
+              <p class="text-small text-grey-dk-000 mb-0">{{ site.footer_content }}</p>
             </footer>
           {% endif %}
 

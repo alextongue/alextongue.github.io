@@ -1,13 +1,15 @@
 ---
 title: "11: Underdetermined Systems"
+custom_title: true
+layout: notes
 parent: Linear Algebra
 grand_parent: Notes
 nav_order: 11
-layout: default
-date: 2020-02-17
 ---
 
 # Underdetermined Solutions to $Ax=b$
+
+-----
 
 Consider the equation $Ax=b$, where $A\in\mathbb{R}^{m\times n}, x\in\mathbb{R}^n, b\in\mathbb{R}^m$
 - This has a solution if and only if $b\in \mathcal{R}(A)$

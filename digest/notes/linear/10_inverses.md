@@ -1,13 +1,12 @@
 ---
+layout: notes
 title: "10: Inverses"
+custom_title: Inverses
+layout: notes
 parent: Linear Algebra
 grand_parent: Notes
 nav_order: 10
-layout: default
-date: 2020-02-17
 ---
-
-# Inverses
 
 ## Left Inverse
 

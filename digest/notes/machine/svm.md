@@ -1,10 +1,9 @@
 ---
 title: Support Vector Machine
-date: 2020-05-13
 nav_order: 4
 parent: Machine Learning, Data Science
 grand_parent: Notes
-layout: default
+layout: notes
 ---
 
 # Support Vector Machine

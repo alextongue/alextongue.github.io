@@ -1,11 +1,9 @@
 ---
 title: Machine Learning
-layout: default
 nav_order: 3
 parent: HRTF
 grand_parent: Literature
 has_toc: false
-date: 2020-05-14
 ---
 
 # HRTF Estimation using Statistical and Machine Learning

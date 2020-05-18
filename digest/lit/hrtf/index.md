@@ -1,14 +1,11 @@
 ---
 title: HRTF
-layout: default
+custom_title: Head Related Transfer Functions
 nav_order: 3
 parent: Literature
 has_children: true
 has_toc: false
-date: 2020-05-14
 ---
-
-# Head Related Transfer Functions
 
 *(for references, please check out the [Immersive Sound](https://alextongue.github.io/digest/lit/2019-09-16-initial.html) textook that I had mentioned earlier)*
 

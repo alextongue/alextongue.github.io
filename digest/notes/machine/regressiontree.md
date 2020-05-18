@@ -1,19 +1,16 @@
 ---
 title: Regression Tree Classifier 
-date: 2020-04-09
 nav_order: 3
+layout: notes
 parent: Machine Learning, Data Science
 grand_parent: Notes
-layout: default
 ---
-
-# Regression Tree Classifier
 
 Given a set of n-dimensional datapoints $\mathcal{X} = \begin{Bmatrix} \mathbf{x}_1, \mathbf{x}_2, \cdots, \mathbf{x}_N\end{Bmatrix} \in \mathbb{R}^{n}$, we can iteratively divide $\mathcal{X}$ into discrete groups using a **regression tree**.
 
 Each branch of the tree represents a division based on one or more dimensions. For decision trees, this division is binary and disjoint. this means all of the points arriving at a given branch are classified into one of its branches. 
 
-## Let's start with an example.
+## **Let's start with an example.**
 
 For example, let us consider a dataset of six points in two dimensions. Furthermore, for the sake of simplicity, we will only consider divisions across one dimension at a time.
 

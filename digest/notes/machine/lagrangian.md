@@ -1,10 +1,9 @@
 ---
 title: Lagrangian Multiplier
-date: 2020-05-13
 nav_order: 5
+layout: notes
 parent: Machine Learning, Data Science
 grand_parent: Notes
-layout: default
 ---
 
 # Lagrangian Multiplier

@@ -2,6 +2,7 @@
 // Custom overrides from a user.
 //
 
+// when in slim width...
 @media(min-width: 31.25rem) {
     figure { // from base.scss
         //max-width: 70%;
@@ -45,6 +46,7 @@
     }
 }
 
+// for widths more than 66.5rem...
 @media(min-width: 66.5rem) {
     figure { // from base.scss
         //max-width: 70%;

@@ -1,18 +1,19 @@
 ---  
 title: "XY vs. MS, Exhaustively"
-date: 2019-09-17
+custom_title: true
 nav_order: 2
 parent: Literature
-layout: default
 ---
 
-# XY and MS Conceptual Comparison
-
-### (alternate title 1: a quick detour-derivation of acoustoelectric transduction)
-### (alternate title 2: how i learned to use footnotes excessively)
+<center>
+<h1>XY vs. MS, an Conceptually Exhaustive Comparison</h1>
+<h3>alternate title 1: a quick detour/derivation of electroacoustic<b>*</b> transduction</h3>
+<h3>alternate title 2: how i learned to use footnotes excessively</h3>
+</center>
 
 -----
-_**Context:** 7:17AM EST, sitting at Variety Coffee Roasters on 7th Ave. Drinking a cappuccino and eating a carrot-mango-coconut muffin. I'm alternating between tasting lychee and medicine from the coffee, and the muffin sort of tastes like tortilla chips. Also listening to Isaiah Sharkey's LOVE.LIFE.LIVE album. A good funk._
+
+**Context:** It's 7:17AM EST, sitting at Variety Coffee Roasters on 7th Ave. Drinking a cappuccino and eating a carrot-mango-coconut muffin. I'm alternating between tasting lychee and medicine from the coffee, and the muffin sort of tastes like tortilla chips. Also listening to Isaiah Sharkey's LOVE.LIFE.LIVE album. A good funk.
 
 -----
 
@@ -44,7 +45,9 @@ Several other graphs were also given, that DID THIS INSTEAD OF THAT. This was be
 
 By the way, it's worth noting that in both cases, the microphone capsules of each pair are supposed to be colocated in theory. Because it's impossible to have current microphone capsules (or any discrete objects, for that matter) occupy the same physical space, microphones can be placed one above the other in practice. This offset of a centimeter or two in a direction orthogonal to the direction of capture is negligible.
 
-### Footnotes
+## Footnotes
+<b>*</b>  acoustoelectric? electroacoustic?
+
 [^1]: that is, the ray that originates on the microphone capsule and points in the direction that the microphone is most sensitive to changes in pressure at some standard distance, usually 1m. In the case of a finite planar aperture by which virtually every current microphone capsule can be characterized, this corresponds with the normal vector pointing out of the center of the capsule.
 [^2]: ... as long as they aren't perceptually indistinguishable point, line, or plane sources symmetric across the plane that contains both a point on the planar intersection of surfaces of the microphone capsules and the line that bisects the angle between microphone capsules' normal vectors. But I think those rarely happens.
 [^3]: Ribbon microphones are an example of a bidirectional microphone, which consist of a conductive film parallel to the magnetic field lines from magnet poles on either side. Current is induced across the foil when a force is applied in the direction normal to the foil. This can be derived from the Faraday-Lenz law. The current signal then passes through some fancy tube or transistor preamp circuitry and is converted to some a voltage in some nominal range, ready to be passed to other equipment.
