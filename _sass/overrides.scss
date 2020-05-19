@@ -34,16 +34,17 @@
     .navigation-list > .navigation-list-item:last-of-type {
         .navigation-list-link {
             // ABOUT ME
-            color: #548bd1;
+            color: black;
         }
     }
     .navigation-list-link.active {
-        color: black !important;
+        color: #548bd1 !important;
     }
 }
 
 a:not([class]):hover {
-    text-decoration: underline; 
+    text-decoration: none;
+    color: #548bd1;
 }
 
 // when in slim width...
