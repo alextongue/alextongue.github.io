@@ -3,8 +3,9 @@
 ////
 
 //$body-font-family: -apple-system, BlinkMacSystemFont, "helvetica neue", helvetica, roboto, noto, "segoe ui", arial, sans-serif;
+$body-font-family: Georgia, serif;
 //$mono-font-family: "SFMono-Regular", Menlo, Consolas, Monospace;
-//$root-font-size: 16px;         // Base font-size for rems
+$root-font-size: 18px;         // Base font-size for rems
 //$body-line-height: 1.4;
 //$content-line-height: 1.5;
 //$body-heading-line-height: 1.15;
@@ -60,8 +61,8 @@ $sidebar-color: #f0f0f0;
 //$body-text-color: $grey-dk-100;
 //$body-heading-color: $grey-dk-300;
 //$search-result-preview-color: $grey-dk-000;
-$nav-child-link-color: #0065A5;
-$link-color: #0065A5;
+//$nav-child-link-color: #975f39;
+$link-color: #548bd1;
 //$btn-primary-color: $purple-100;
 //$base-button-color: #f7f7f7;
 
@@ -212,99 +213,3 @@ $header-height: auto;
     0% { transform: none; transform: none; }
     100% { transform: translate(-32px, 0); transform: translate(-32px, 0); }
   }
-
-
-.gallery {
-    //display: unset;
-    //text-align: center;
-}
-
-.gallery-wrap {
-  //display: inline-block;
-  //text-align: center;
-  width: fit-content;
-  //position: relative;
-}
-
-.galpanel {
-    position: relative;
-    height: 500px;
-    width: 250px;
-    overflow: hidden;
-    display: inline-block;
-    margin-left: 0.1em;
-    margin-right: 0.1em;
-}
-
-.overlay {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    width: 100%;
-    opacity: 25%;
-    transition: .5s ease;
-    background-color: #000000;
-}
-
-.text-overlay {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    width: 100%;
-    opacity: 0;
-    transition: .5s ease;
-    background-color: none;
-}
-
-.galpanel:hover .overlay {
-    opacity: 50%;
-    mix-blend-mode: darken;
-}
-
-.galpanel:hover .text-overlay {
-    opacity: 100%;
-}
-
-.galimage {
-    display: block;
-    height: 500px;
-    position:absolute;
-    left: -100%;
-    right: -100%;
-    top: -100%;
-    bottom: -100%;
-    margin: auto;
-    width: auto;
-}
-
-.galpanel > img {
-    max-width: unset;
-}
-
-.galtext {
-    color: white;
-    font-size: 20px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    text-align: center;
-}
-
-.galtext > a:link, a:visited {
-    text-decoration: none;
-    color: inherit;
-}
-
-.galtext > a:hover, a:active {
-    text-decoration: none;
-    color: inherit;
-}

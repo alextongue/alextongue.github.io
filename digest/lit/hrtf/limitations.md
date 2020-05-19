@@ -1,16 +1,15 @@
 ---
 title: Limitations
+custom_title: HRTF Limitations
 nav_order: 2
 parent: HRTF
 grand_parent: Literature
 has_toc: false
 ---
 
-# HRTF Limitations
-
 As of now, there are several types of limitations in using HRTFs:
 
-### Acquisition
+## Acquisition
 
 The most straightforward way to capture an individual HRTF is through direct acoustic measurement. An acoustic stimulus is played back from a known direction and recorded by microphones placed in the ear canal of the subject. Direct measurement, however, is costly, requiring
 - equipment for stimulus playback, capture, and accurate head-tracking
@@ -19,7 +18,7 @@ The most straightforward way to capture an individual HRTF is through direct aco
 
 Generic HRTFs have been statistically derived, either through databases or measuring "dummy-head" head-and-torso simulators (HATS),which themselves have been constructed from standardized median head measurements. These have shown to provide some amount of localization, but it has been shown that individualized HRTFs are more successful in externalizing sound.
 
-### Storage and Computation
+## Storage and Computation
 
 An additional constraint in systems that incorporate HRTFs is the storage and fast retrieval of large datasets. Applying a single FIR filter to an audio stream only requires either one time-domain convolution or a set of DFT[^1] computation, frequency multiplication, and inverse DFT computation. However, the computational load rises exponentially for systems that require processing of different audio rays through multiple HRTF filters in real-time, in order to convincingly convey virtual spatial environments.
 

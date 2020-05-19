@@ -3,10 +3,8 @@ custom_title: true
 ---
 
 <center>
-  <h1>Welcome!</h1>
-  <h3>We'll see how far this lil blog goes.</h3>
+  <h1>Welcome</h1>
 </center>
-
 
 <div class="gallery">
 <center>
@@ -50,3 +48,7 @@ custom_title: true
 </div>
 </center>
 </div>
+
+<center>
+  <h3>We'll see how far this lil blog goes.</h3>
+</center>
