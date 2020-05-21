@@ -2,50 +2,52 @@
 // Custom overrides from a user.
 //
 
+// Navigation Links
 .navigation {
     font-family: -apple-system, BlinkMacSystemFont, "helvetica neue", helvetica, roboto, noto, "segoe ui", arial, sans-serif;
     padding-left: 2.5rem;
-    .navigation-list-item {
-        a {
-            // NAV LIST LEVEL 1
-            font-weight: bold;
-            font-size: 1.1em;
-            color: #486992;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-    }
-    .navigation-list-child-list .navigation-list-item {
-        a {
-            // NAV LIST LEVEL 2
-            font-weight: bold;
-            color: #486992;
-        }
+
+    // NAV LIST LEVEL 1
+    .navigation-list-item a:link, .navigation-list-item a:visited {
+        font-weight: bold;
+        font-size: 1.1em;
+        color: #548bd1;
     }
 
-    .navigation-list-child-list .navigation-list-item .navigation-list-item {
-        a {
-            // NAV LIST LEVEL 3
-            font-weight: normal;
-            color: #486992;
-        }
+    // NAV LIST LEVEL 2
+    .navigation-list-child-list .navigation-list-item a {
+        font-weight: bold;
     }
-    .navigation-list > .navigation-list-item:last-of-type {
-        .navigation-list-link {
-            // ABOUT ME
-            color: black;
-        }
+
+    // NAV LIST LEVEL 2: WORKBENCH
+//    .navigation-list-child-list .navigation-list-item:nth-last-of-type() a {
+//        font-weight: underline;
+//    }
+
+    // NAV LIST LEVEL 3
+    .navigation-list-child-list .navigation-list-item .navigation-list-item a {
+        font-weight: normal;
     }
+
+    
     .navigation-list-link.active {
-        color: #548bd1 !important;
+        color: black !important;
+    }
+
+    .navigation-list-item a:hover {
+        text-decoration: none;
+        color: #285da3;
     }
 }
 
+// General hyperlink hover
 a:not([class]):hover {
     text-decoration: none;
-    color: #548bd1;
+    color: #285da3;
 }
+
+//title hover
+a:active, a:hover { color: grey; }
 
 // when in slim width...
 @media(min-width: 31.25rem) {
@@ -259,5 +261,5 @@ a:not([class]) {
   
   .galtext a:hover, .galtext a:active {
       text-decoration: none;
-      color: #ffdfb9;
+      color: #e2e2e2;
   }
