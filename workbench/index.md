@@ -6,4 +6,4 @@ has_children: true
 has_toc: false
 ---
 
-<center>The things I buy, make, and take apart. Start navigating on the left!</center>
+<center>The things I buy, make, and take apart. I'm working on putting them back together.</center>
