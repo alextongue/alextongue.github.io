@@ -7,13 +7,13 @@ nav_order: 8
 
 <a href="https://motu.com/products/proaudio/ultralite-mk4">I got a new interface</a>! I've been using this for a couple months now, and it's been wonderful.
 
-There was a brief persistent issue where all of the input pad relays and output relays seem to have failed and I was getting a faint and noise-ridden signal from the headphone outputs... but taking the cover off and wiggling the auto-power-on jumper made it go away.
+There was a brief persistent issue where all of the input pad relays and output relays seem to have failed and I was getting a faint and noise-ridden signal from the headphone outputs... but taking the cover off and wiggling the auto power-on jumper made it go away.
 
 Here are some images of its innards:
 
 <figure>
     <img src="https://github.com/alextongue/alextongue.github.io/blob/master/workbench/resources/ultralite/inside.jpg?raw=true" width="1000">
-    <figcaption>Note the little header pin jumper on the right side. This bypasses the power button and allows for the device to power on and off by simply cutting power.</figcaption>
+    <figcaption>The little header jumper on the right side,  halfway from the top is the auto power-on jumper. This bypasses the power button and allows for the device to power on and off by simply cutting power. I actually love it when manufacturers put user-configurable parts inside their equipment.</figcaption>
 </figure>
 
 And a closer view of the heavily-advertised ESS Sabre DAC. There are several more underneath the daughterboard to the right. The one that is visible is the 8 channel ES9018 (<a href="http://www.esstech.com/index.php/en/products/sabre-digital-analog-converters/audiophile-dacs/classic-sabre-8-channel-dacs/es9018/">web datasheet</a>). 
@@ -62,7 +62,7 @@ If I were using one of their AVB-enabled interfaces, I'm pretty sure the same ne
 
 It would be. so. neat. if I could figure out the actual control messages to write my own webapp to monitor or set levels.
 
-MOTU has released a couple guides on controlling their AVB-enabled interfaces through http requests and OSC messages, which could be found on their <a href="https://motu.com/proaudio/index.html">Pro Audio start page</a> under "External control APIs". I'm pretty sure the same protocol is used for my mk4.
+MOTU has released a couple guides on controlling their AVB-enabled interfaces through http requests and OSC messages, which could be found on their <a href="https://motu.com/proaudio/index.html">Pro Audio start page</a> under "External control APIs". I'm pretty sure the same protocol is used for my mk4, and I could sniff around on Wireshark or something to figure out more.
 
 Here are the handful of conversations that I've found so far, of people trying to decode the commands:
 - Some Motunation forum members were able to <a href="http://www.motunation.com/forum/viewtopic.php?f=14&t=63607">send control messages to change the routing</a>
