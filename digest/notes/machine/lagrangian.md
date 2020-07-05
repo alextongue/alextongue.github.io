@@ -6,8 +6,6 @@ parent: Machine Learning, Data Science
 grand_parent: Notes
 ---
 
-# Lagrangian Multiplier
-
 Let us find the values of $x,y,z$ that yield extrema in the function $f(x,y,z)$ given a constraint that $g(x,y,z)=k$.
 
 

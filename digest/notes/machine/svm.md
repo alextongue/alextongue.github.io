@@ -6,8 +6,6 @@ grand_parent: Notes
 layout: notes
 ---
 
-# Support Vector Machine
-
 A support vector machine (SVM) is one that classifies a dataset based on:
 
 - misclassifications
