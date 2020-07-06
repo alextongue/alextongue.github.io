@@ -1,13 +1,13 @@
 ---
 title: HRTF
 custom_title: Head Related Transfer Functions
-nav_order: 3
+nav_order: 4
 parent: Literature
 has_children: true
 has_toc: false
 ---
 
-*(for references, please check out the [Immersive Sound](https://alextongue.github.io/digest/lit/2019-09-16-initial.html) textook that I had mentioned earlier)*
+*(for references, please check out the [Immersive Sound](https://alextongue.github.io/digest/lit/textbook.html) textook that I had mentioned earlier)*
 
 Humans are able to localize external acoustic stimuli through the interaction of incident acoustic stimuli on their bodies, namely the head and torso. A **Head-Related Transfer Function (HRTF)** characterizes these differences in the form of a conventional linear transfer function. This transfer function contains two types of binaural[^1] cues or differences:
 
