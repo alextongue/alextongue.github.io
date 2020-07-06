@@ -16,6 +16,8 @@ markdown: kramdown
 search_enabled: true
 search_tokenizer_separator: /[\s/]+/
 
+favicon: https://github.com/alextongue/alextongue.github.io/blob/master/favicons/favicon_32.png?raw=true
+
 defaults:
   -
     scope:
