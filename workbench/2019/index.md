@@ -17,7 +17,7 @@ From June to early September, I started another acoustics internship. I awakened
 
 I made my first solo long-distance drive up to San Jose, where I spent time with my old roommate and some other friends. This trip involved my first Patagonia and many Keebler cookies under the stars in Yosemite.
 
-Back in San Diego My roommate and I, along with two interns who flew in from Santa Clara and Wisconisn, won the Bose-sponsored spatial audio category and became finalists, where I tried explaining FOA to a bunch of telecom engineers. I was almost too tired to enter the hackathon, but I'm very thankful for my team and their monstrous coding chops. It must've been because we went out for burgers the night before.
+Back in San Diego, my roommate and I, along with two interns who flew in from Santa Clara and Wisconisn, won the Bose-sponsored spatial audio category and became finalists, where I tried explaining FOA to a bunch of telecom engineers. I was almost too tired to enter the hackathon, but I'm very thankful for my team and their monstrous coding chops. It must've been because we went out for burgers the night before.
 
 I took a couple days off to fly to the AES headphone conference and heard some really cool folks talk about headphoney things; it ended up stretching into binauralization, head modeling, and physical driver modeling. Back in San Diego, I was able to check into one of the multichannel rooms (read: a wall of Genelecs), where I spent a couple late nights mixing my friend's a cappella project in HOA.
 
