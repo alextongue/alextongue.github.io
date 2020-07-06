@@ -10,19 +10,20 @@
     // NAV LIST LEVEL 1
     .navigation-list-item a:link, .navigation-list-item a:visited {
         font-weight: bold;
-        font-size: 1.1em;
+        //font-size: 1.1em;
         color: #548bd1;
     }
 
     // NAV LIST LEVEL 2
     .navigation-list-child-list .navigation-list-item a {
         font-weight: bold;
+        color: #548bd1;
     }
 
     // NAV LIST LEVEL 2: WORKBENCH
-//    .navigation-list-child-list .navigation-list-item:nth-last-of-type() a {
-//        font-weight: underline;
-//    }
+    //.navigation-list-child-list .navigation-list-item:nth-last-of-type(2) a {
+    //    font-weight: normal;
+    //}
 
     // NAV LIST LEVEL 3
     .navigation-list-child-list .navigation-list-item .navigation-list-item a {
