@@ -1,8 +1,6 @@
 ---
-layout: notes
 title: "10: Inverses"
 custom_title: Inverses
-layout: notes
 parent: Linear Algebra
 grand_parent: Notes
 nav_order: 10

@@ -1,7 +1,6 @@
 ---
 title: Regression Tree Classifier 
 nav_order: 3
-layout: notes
 parent: Machine Learning, Data Science
 grand_parent: Notes
 ---

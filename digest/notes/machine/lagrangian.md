@@ -1,7 +1,6 @@
 ---
 title: Lagrangian Multiplier
 nav_order: 5
-layout: notes
 parent: Machine Learning, Data Science
 grand_parent: Notes
 ---

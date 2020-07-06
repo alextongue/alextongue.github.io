@@ -3,7 +3,6 @@ title: Support Vector Machine
 nav_order: 4
 parent: Machine Learning, Data Science
 grand_parent: Notes
-layout: notes
 ---
 
 A support vector machine (SVM) is one that classifies a dataset based on:

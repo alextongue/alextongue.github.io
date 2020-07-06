@@ -1,8 +1,6 @@
 ---
-layout: notes
 title: "1: Fields, Vector Fields"
 custom_title: Fields
-layout: notes
 parent: Linear Algebra
 grand_parent: Notes
 nav_order: 1
