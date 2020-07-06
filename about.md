@@ -5,16 +5,21 @@ nav_order: 99
 show_search: false
 ---
 
-If you're on this page, that must mean that (1) you want to learn more about me, or (2) I had told you in person about how I was super excited that I just learned how to throw together a website, and you're here out of good humor. Either way, thanks for checking it out.
+If you're on this page, that must mean that
+
+1. you want to learn more about me, or
+2. I had told you in person about how I was super excited that I just learned how to throw together a website, and you're here out of good humor. 
+
+Either way, thanks for checking me out.
 
 <figure>
 <img src="https://github.com/alextongue/alextongue.github.io/blob/master/workbench/resources/krpt.JPG?raw=true">
 <figcaption>I'm in the top row, third from the right! I recently had the privilege of playing on two minor music videos! You can watch them <a href="https://www.youtube.com/watch?v=gpHsjl9bWs0">here</a> and <a href="https://www.youtube.com/watch?v=QfH5pGiZTA0">here</a>.</figcaption>
 </figure>
 
-I fell into this whole audio thing because I bought a used computer subwoofer when I was 12 years old to make my music sound more rumbly. Now, I'm a research engineer and graduate student doing research in multichannel audio, machine learning, and loudspeaker characterization. <b>Here's my <a href="https://www.dropbox.com/s/wwiro5y0bjgg4fc/Alex_Tung_Resume_FA19_nb.pdf?dl=0">resume</a>.</b>
+I fell into this whole audio thing because I bought a used computer subwoofer when I was 12 years old to make my music sound more rumbly. Now, I'm a research engineer and graduate student doing research in multichannel audio, machine learning, and loudspeaker characterization. <b>For those interested, here's my <a href="https://www.dropbox.com/s/wwiro5y0bjgg4fc/Alex_Tung_Resume_FA19_nb.pdf?dl=0">resume</a>.</b>
 
-I'm a pretty strong external processor, so I initially made this website as a place to publish some of my thoughts as I try to gain understanding of the domains of my schoolwork. You can find these posts under the <a href="https://alextongue.github.io/digest/lit/">Literature</a> and <a href="https://alextongue.github.io/digest/notes/">Notes</a> sections.
+I initially made this website as a place to publish some of my thoughts as I try to gain understanding of the domains of my schoolwork. You can find these posts under the <a href="https://alextongue.github.io/digest/lit/">Literature</a> and <a href="https://alextongue.github.io/digest/notes/">Notes</a> sections.
 
 I also like buying and restoring old audio equipment. You can find that in <a href="https://alextongue.github.io/workbench/">Workbench</a>.
 
