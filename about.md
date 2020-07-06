@@ -17,7 +17,7 @@ Either way, thanks for checking me out.
 <figcaption>I'm in the top row, third from the right! I recently had the privilege of playing on two minor music videos! You can watch them <a href="https://www.youtube.com/watch?v=gpHsjl9bWs0">here</a> and <a href="https://www.youtube.com/watch?v=QfH5pGiZTA0">here</a>.</figcaption>
 </figure>
 
-I fell into this whole audio thing because I bought a used computer subwoofer when I was 12 years old to make my music sound more rumbly. Now, I'm a research engineer and graduate student doing research in multichannel audio, machine learning, and loudspeaker characterization. <b>For those interested, here's my <a href="https://www.dropbox.com/s/wwiro5y0bjgg4fc/Alex_Tung_Resume_FA19_nb.pdf?dl=0">resume</a>.</b>
+I fell into this whole audio thing because I bought a used computer subwoofer when I was 12 years old to make my music sound more rumbly. Now, I'm a research engineer and graduate student doing work in multichannel audio, machine learning, and loudspeaker characterization. <b>For those interested, here's my <a href="https://www.dropbox.com/s/wwiro5y0bjgg4fc/Alex_Tung_Resume_FA19_nb.pdf?dl=0">resume</a>.</b>
 
 I initially made this website as a place to publish some of my thoughts as I try to gain understanding of the domains of my schoolwork. You can find these posts under the <a href="https://alextongue.github.io/digest/lit/">Literature</a> and <a href="https://alextongue.github.io/digest/notes/">Notes</a> sections.
 
