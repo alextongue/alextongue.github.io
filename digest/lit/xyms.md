@@ -6,9 +6,11 @@ parent: Literature
 ---
 
 <center>
-<h1>XY vs. MS, an Conceptually Exhaustive Comparison</h1>
+<h1>XY vs. MS, a Disgustingly Exhaustive Comparison</h1>
 <h3>alternate title 1: a quick detour/derivation of electroacoustic<b>*</b> transduction</h3>
 <h3>alternate title 2: how i learned to use footnotes excessively</h3>
+
+<b>*</b> acoustoelectric? electroacoustic?
 </center>
 
 -----
@@ -46,7 +48,6 @@ Several other graphs were also given, that DID THIS INSTEAD OF THAT. This was be
 By the way, it's worth noting that in both cases, the microphone capsules of each pair are supposed to be colocated in theory. Because it's impossible to have current microphone capsules (or any discrete objects, for that matter) occupy the same physical space, microphones can be placed one above the other in practice. This offset of a centimeter or two in a direction orthogonal to the direction of capture is negligible.
 
 ## Footnotes
-<b>*</b>  acoustoelectric? electroacoustic?
 
 [^1]: that is, the ray that originates on the microphone capsule and points in the direction that the microphone is most sensitive to changes in pressure at some standard distance, usually 1m. In the case of a finite planar aperture by which virtually every current microphone capsule can be characterized, this corresponds with the normal vector pointing out of the center of the capsule.
 [^2]: ... as long as they aren't perceptually indistinguishable point, line, or plane sources symmetric across the plane that contains both a point on the planar intersection of surfaces of the microphone capsules and the line that bisects the angle between microphone capsules' normal vectors. But I think those rarely happens.
