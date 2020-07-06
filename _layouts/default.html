@@ -38,8 +38,8 @@ layout: table_wrappers
     </div>
     <div class="main-content-wrap js-main-content" tabindex="0">
       <div class="main-content">
+        {% if page.show_search != false and site.search_enabled != false %}
         <div class="page-header js-page-header">
-          {% if site.search_enabled != false %}
           <div class="search">
             <div class="search-input-wrap">
               <input type="text" class="js-search-input search-input" tabindex="0" placeholder="Search {{ site.title }}" aria-label="Search {{ site.title }}" autocomplete="off">
@@ -47,7 +47,6 @@ layout: table_wrappers
             </div>
             <div class="js-search-results search-results-wrap"></div>
           </div>
-          {% endif %}
           {% if site.aux_links != nil %}
             <ul class="list-style-none text-small aux-nav">
               {% for link in site.aux_links %}
@@ -56,6 +55,7 @@ layout: table_wrappers
             </ul>
           {% endif %}
         </div>
+        {% endif %}  
         <div class="page">
           {% unless page.url == "/" %}
             {% if page.parent %}

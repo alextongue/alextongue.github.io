@@ -1,5 +1,6 @@
 ---
 custom_title: true
+show_search: false
 ---
 
 <center>
