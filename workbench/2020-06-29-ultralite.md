@@ -2,7 +2,7 @@
 title: MOTU Ultralite Mk4
 date: 2020-06-29
 parent: Workbench
-nav_order: 8
+nav_order: 92
 ---
 
 <a href="https://motu.com/products/proaudio/ultralite-mk4">I got a new interface</a>! I've been using this for a couple months now, and it's been wonderful.
