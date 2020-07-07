@@ -19,6 +19,9 @@ table {
   border-collapse: separate;
 }
 
+//ALEX PROOF TABLE
+
+/*
 table td.shrink {
   white-space: nowrap;
   width: 1%;
@@ -69,12 +72,30 @@ table td:nth-child(4) { //body
 
 table th:nth-child(4) { //header
   //border-left: $border $border-color;
+
+*/
+th,
+td {
+  @include fs-3;
+  min-width: 120px;
+  padding-top: $sp-2;
+  padding-right: $sp-3;
+  padding-bottom: $sp-2;
+  padding-left: $sp-3;
+  background-color: $table-background-color;
+  border-bottom: $border rgba($border-color, 0.5);
+  border-left: $border $border-color;
+
+  &:first-of-type {
+    border-left: 0;
+  }
 }
 
 tbody {
   tr {
     &:last-of-type {
-      th, td {
+      th,
+      td {
         border-bottom: 0;
       }
 
@@ -87,8 +108,9 @@ tbody {
 
 thead {
   th {
-    border-bottom: $border $grey-lt-300;
-    border-width: 1px;
-    //color: $grey-dk-000;
+    //border-bottom: $border $grey-lt-300; //ALEX
+    //border-width: 1px; //ALEX
+    //color: $grey-dk-000; //ALEX
+    border-bottom: $border $border-color;
   }
 }

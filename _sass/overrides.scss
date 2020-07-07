@@ -2,10 +2,26 @@
 // Custom overrides from a user.
 //
 
+
+.site-header {
+    height: 100px;
+    max-height: unset
+  }
+
+// from layout
+.main {
+    @include mq(lg) {
+      margin-left: calc(
+        (100% - #{$nav-width + $content-width}) / 2 + #{$nav-width}
+      );
+    }
+  }
+
+
 // Navigation Links
-.navigation {
+.site-nav {
     font-family: -apple-system, BlinkMacSystemFont, "helvetica neue", helvetica, roboto, noto, "segoe ui", arial, sans-serif;
-    padding-left: 2.5rem;
+    padding-right: 1rem;
 
     // NAV LIST LEVEL 1
     .navigation-list-item a:link, .navigation-list-item a:visited {
@@ -143,10 +159,10 @@ a:active, a:hover { color: grey; }
         padding-top: 1em;
         padding-bottom: 1em;
     }
-    .navigation {
+    .site-nav {
         padding-top: 1em;
     }
-    .main-content { margin-left: $nav-width; }
+    //.main-content { margin-left: $nav-width; }
     .main-content-wrap { 
         -webkit-overflow-scrolling: touch;
         overflow-x: hidden;
