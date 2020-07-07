@@ -3,7 +3,11 @@
 .ruby-version
 .jekyll-cache
 .jekyll-metadata
+<<<<<<< HEAD
 .sass-cache
 _site
 Gemfile.lock
 node_modules
+=======
+*.swp
+>>>>>>> master
