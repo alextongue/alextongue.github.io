@@ -1,25 +1,22 @@
 <script type="text/x-mathjax-config">
-    MathJax.Hub.Config({
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    tex2jax: {
+      inlineMath: [['$','$']],
+      processEscapes: false,
+    },
+    jax: ["input/TeX", "output/HTML-CSS"],
+    TeX: {
       extensions: [
-        "tex2jax.js",
-      ],
-      tex2jax: {
-        displayMath: [['$$', '$$']],
-        inlineMath: [['$', '$']],
-        processEscapes: true,
-      },
-      jax: ["input/TeX", "output/HTML-CSS"],
-      TeX: {
-        extensions: [
-          "AMSmath.js",
-          "AMSsymbols.js",
-          "noErrors.js",
-          "noUndefined.js",
-        ]
-      }
-    });
-  </script>
+        "AMSmath.js",
+        "AMSsymbols.js",
+        "noErrors.js",
+        "noUndefined.js",
+      ]
+    }
+  });
+</script>
 
-<script type="text/javascript" async
-  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML">
+<script type="text/javascript"
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_HTML">
 </script>

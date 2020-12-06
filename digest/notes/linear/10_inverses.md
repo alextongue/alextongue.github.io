@@ -28,11 +28,11 @@ $\Longrightarrow\; \mathrm{rank}(A) = \mathrm{rank}(A^\mathrm{T}) = n$, or $A$ h
 
 $\Longrightarrow\; \forall v\in \mathbb{F}^n, \exists u\in \mathbb{F}^m : u^\mathrm{T}A=v^\mathrm{T}$. Every vector in $\mathbb{F}^n$ can be created through $A$ as a linear combination of the rows in $A$.
 
-$$\;\;\;\;\;\;\;\;[u_1 \rightarrow u_m] \begin{bmatrix} A_{11} & A_{12} & \cdots & A_{1n} \\ \downarrow & \downarrow & \cdots & \downarrow \\ A_{m1} & A_{m2} & \cdots & A_{mn} \\ \end{bmatrix} = [v_1, v_2, \cdots , v_n]$$
+$$[u_1 \rightarrow u_m] \begin{bmatrix} A_{11} & A_{12} & \cdots & A_{1n} \\ \downarrow & \downarrow & \cdots & \downarrow \\ A_{m1} & A_{m2} & \cdots & A_{mn} \\ \end{bmatrix} = [v_1, v_2, \cdots , v_n]$$
 
 $\Longrightarrow\;$ As an extension of the above, a set of $n$ beginning vectors $\{\hat{u}_1, \hat{u}_2, \cdots, \hat{u}_n\}$ could be created such that 
 
-$$ \begin{bmatrix}\hat{u}_{11} & \rightarrow & u_{1m} \\ \hat{u}_{21} & \rightarrow & u_{2m} \\ \vdots & \vdots & \vdots \\ \hat{u}_n & \rightarrow & u_{nm}\end{bmatrix} \begin{bmatrix} A_{11} & A_{12} & \cdots & A_{1n} \\ \downarrow & \downarrow & \cdots & \downarrow \\ A_{m1} & A_{m2} & \cdots & A_{mn} \\ \end{bmatrix} = [e_1, e_2, \cdots, e_n] \Rightarrow \hat{U}A=I_n $$
+$$\begin{bmatrix}\hat{u}_{11} & \rightarrow & u_{1m} \\ \hat{u}_{21} & \rightarrow & u_{2m} \\ \vdots & \vdots & \vdots \\ \hat{u}_n & \rightarrow & u_{nm}\end{bmatrix} \begin{bmatrix} A_{11} & A_{12} & \cdots & A_{1n} \\ \downarrow & \downarrow & \cdots & \downarrow \\ A_{m1} & A_{m2} & \cdots & A_{mn} \\ \end{bmatrix} = [e_1, e_2, \cdots, e_n] \Rightarrow \hat{U}A=I_n$$
 
 For complex-valued $A$, let $A^\mathrm{H}A$ not be invertible. That means $\exists x\neq 0_n$, where for $A^\mathrm{H}Ax=0_m$,
 
