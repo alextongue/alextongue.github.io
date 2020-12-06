@@ -33,7 +33,7 @@ My interface has been designed as part of a newer generation of AVB interfaces (
 
 <figure>
     <img src="https://dt7v1i9vyp3mf.cloudfront.net/styles/news_large/s3/imagelibrary/m/motu124803-z7xtl4JN4e34jBC36R8_zP02ERJv4f5c.jpg">
-    <figcaption>MOTU Pro Audio Control. (Picture from <a href=https://www.soundonsound.com/reviews/motu-1248>Sound on Sound's review of the MOTU 1248</a>, which has the same web mixer as the Ultralite AVB and mk4)</figcaption>
+    <figcaption>MOTU Pro Audio Control. (Picture from <a href="https://www.soundonsound.com/reviews/motu-1248">Sound on Sound's review of the MOTU 1248</a>, which has the same web mixer as the Ultralite AVB and mk4)</figcaption>
 </figure>
 
 I can't really speak for the old CueMix, but the newer software (now called "MOTU Pro Audio Control") does feel nice. To control the mixing and routing, everything is accessible only through a browser app. Though there is an installable "discovery app," opening the control panel simply redirects opens a browser tab to port 1280 on localhost. The neat part is that any device with a web browser connected to the local area network can access the interface by simply connecting to the host computer's local IP.
