@@ -3,7 +3,7 @@ title: MOTU Ultralite Mk4
 date: 2020-06-29
 grand_parent: Workbench
 parent: 2020
-nav_order: 96
+nav_order: 97
 ---
 
 <a href="https://motu.com/products/proaudio/ultralite-mk4">I got a new interface</a>! I've been using this for a couple months now, and it's been wonderful.
@@ -27,13 +27,13 @@ And a closer view of the heavily-advertised ESS Sabre DAC. There are several mor
 
 In past years, MOTU has been one of the handful of companies to include true internal mixers[^1] in their interfaces. By mixing inputs and outputs using onboard DSP (usually Analog Devices SHARC) this type of mixing eliminates round-trip latencies that would otherwise be introduced by mixing through the host computer.
 
-Probably due to changes in market interest and the growing efficiency of semiconductor supply chains, more OEMs have been adding internal mixing capabilities in their interfaces, but MOTU has long been in the game with CueMix, along with RME's TotalMix. Given the similarities of their names, I wouldn't be surprised if they were direct competitors...
+Probably due to changes in market interest and the growing efficiency of semiconductor supply chains, more OEMs have been adding internal mixing capabilities in their interfaces, but MOTU has long been in the game with CueMix, along with RME's TotalMix FX. Given the similarities of their names, I wouldn't be surprised if they were direct competitors...
 
 My interface has been designed as part of a newer generation of AVB interfaces (except mine doesn't have AVB connectivity). In terms of hardware, this just means we have bright and pretty white-on-blue LCD screens instead of the old green-on-black segment displays. On the software side, however, a complete redesign was done with their mixing and routing software.
 
 <figure>
     <img src="https://dt7v1i9vyp3mf.cloudfront.net/styles/news_large/s3/imagelibrary/m/motu124803-z7xtl4JN4e34jBC36R8_zP02ERJv4f5c.jpg">
-    <figcaption>MOTU Pro Audio Control. (Picture from <a href="https://www.soundonsound.com/reviews/motu-1248">Sound on Sound's review of the MOTU 1248</a>, which has the same web mixer as the Ultralite AVB and mk4)</figcaption>
+    <figcaption>MOTU Pro Audio Control. (Picture from <a href="https://www.soundonsound.com/reviews/motu-1248">Sound on Sound's review of the MOTU 1248</a>)</figcaption>
 </figure>
 
 I can't really speak for the old CueMix, but the newer software (now called "MOTU Pro Audio Control") does feel nice. To control the mixing and routing, everything is accessible only through a browser app. Though there is an installable "discovery app," opening the control panel simply redirects opens a browser tab to port 1280 on localhost. The neat part is that any device with a web browser connected to the local area network can access the interface by simply connecting to the host computer's local IP.
