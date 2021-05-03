@@ -22,7 +22,10 @@ Enter Brewtus.
 
 Brewtus is a E61 dual-boiler. Brew capacity of 1.7 liters. Steam capacity of 1.7 liters.
 
-<figure><img src="https://github.com/alextongue/alextongue.github.io/blob/master/workbench/resources/brewtus/boilers.jpg?raw=true" width="1500"></figure>
+<figure>
+    <img src="https://github.com/alextongue/alextongue.github.io/blob/master/workbench/resources/brewtus/boilers.jpg?raw=true" width="1500">
+    <figcaption>I had already replaced the insulation material in this picture, as the old stuff was falling apart. Imagine cotton candy held together by disintegrating zip-ties.</figcaption>
+</figure>
 
 Brewtus was born in Spain, lived a (presumably) busy life at an Italian restaurant in San Diego, and spent the last few years with a family in Orange County.
 
