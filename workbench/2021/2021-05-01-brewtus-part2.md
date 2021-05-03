@@ -34,4 +34,4 @@ Aside from the front panel, the valve body is still indirectly radiating heat in
 
 At the end of the day, this entire effort only affects the first half-second or so where I am purging water from the wand. Once steam starts flowing, all parts in local contact with the steam path are up to temperature. In any event, I'm digging the joysticks as a welcome aesthetic flex.
 
-<figure><img src="https://github.com/alextongue/alextongue.github.io/blob/master/workbench/resources/brwetus/joysticks.jpg" width="1500"></figure>
+<figure><img src="https://raw.githubusercontent.com/alextongue/alextongue.github.io/master/workbench/resources/brewtus/joysticks.jpg" width="1500"></figure>
