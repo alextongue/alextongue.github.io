@@ -18,11 +18,11 @@ Maybe it was the realization that the potential for profit should not be the sol
 
 Enter Brewtus.
 
-<figure><img src="https://github.com/alextongue/alextongue.github.io/blob/master/workbench/resources/brwetus/newhome.jpg?raw=true" width="1500"></figure>
+<figure><img src="https://github.com/alextongue/alextongue.github.io/blob/master/workbench/resources/brewtus/newhome.jpg?raw=true" width="1500"></figure>
 
 Brewtus is a E61 dual-boiler. Brew capacity of 1.7 liters. Steam capacity of 1.7 liters.
 
-<figure><img src="https://github.com/alextongue/alextongue.github.io/blob/master/workbench/resources/brwetus/boilers.jpg?raw=true" width="1500"></figure>
+<figure><img src="https://github.com/alextongue/alextongue.github.io/blob/master/workbench/resources/brewtus/boilers.jpg?raw=true" width="1500"></figure>
 
 Brewtus was born in Spain, lived a (presumably) busy life at an Italian restaurant in San Diego, and spent the last few years with a family in Orange County.
 
