@@ -19,14 +19,14 @@ When the machine is powering on from a cold start, the steam boiler is at atmosp
 
 Assuming that any losses in pressure are negligible while the steam valve is closed, liquid water present at the steam wand indicates that the temperature is dropping enough for steam to condense back into water before exiting the wand. This drop in temperature is most likely happening downstream of the boiler. For a closer look at this path, the following drawing depicts the previous assembly:
 
-<figure><img src="https://github.com/alextongue/alextongue.github.io/blob/master/workbench/resources/brewtus/sticky_steam1.jpg?raw=true" width="1500"></figure>
+<figure><img src="https://raw.githubusercontent.com/alextongue/alextongue.github.io/master/workbench/resources/brewtus/sticky_steam1.jpg" width="800"></figure>
 
 The steam pipe (A) is secured to the existing steam valve by a threaded fitting (B), and a shallow nut (C) secures the entire valve assembly to the stainless steel front panel (D). When the valve is closed, the contents of the steam boiler are restricted to the actual valve orifice (E). I decided to focus first on the front panel: Given its shape as a large sheet of metal, it effectively functions as a heat sink that can easily wick away temperature from the steam path. I figured this is especially likely since it is also in contact with the valve body, which itself requires a lot of energy to rise up to temperature.
 
 I ended up installing a fiber washer in between the valve body and the front panel (F) to decouble the valve body from the panel. I'm not sure how much I was able to reduce the "temperature leakage" with the addition of this washer, since the panel is still in contact with the steam path via its rear. In the new joystick steam valve, there was no lock nut attaching the valve to the panel. Instead there was an adapter that converts the joystick fitting to a flat male thread that mates better with the copper steam pipe. There was a bonded sealing washer that was supposed to be for the rear of the panel, but I decided not to use it because of the same amount of space taken by the fiber washer at the front of the panel. Adding that sealing washer may offer a little more insulation.
 
 <figure>
-    <img src="https://github.com/alextongue/alextongue.github.io/blob/master/workbench/resources/brewtus/fiberwashers.jpg?raw=true" width="1500">
+    <img src="https://raw.githubusercontent.com/alextongue/alextongue.github.io/master/workbench/resources/brewtus/fiberwashers.jpg" width="1500">
     <figcaption>Had to bore out the washers a little to fit around the steam valve thread</figcaption>
 </figure>
 
