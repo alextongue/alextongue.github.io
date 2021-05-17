@@ -3,11 +3,9 @@
 .ruby-version
 .jekyll-cache
 .jekyll-metadata
-<<<<<<< HEAD
 .sass-cache
 _site
+._config*
 Gemfile.lock
 node_modules
-=======
-*.swp
->>>>>>> master
+.vscode
