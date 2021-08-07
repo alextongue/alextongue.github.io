@@ -6,7 +6,7 @@ parent: 2021
 nav_order: 94
 ---
 
-After a little more cleaning, it was time for paint prep! I used Dumond Smart Strip, which was a water-based stripper that worked like a charm. You just slather the paste on your painted surfaces and paint falls off like wet newspaper. A metal bristle brush helps with the removal.
+After a little more cleaning, it was time for paint prep! I used Dumond Smart Strip, which was a water-based stripper that worked wonderfully. You just slather the paste on your painted surfaces and paint falls off like wet newspaper. A metal bristle brush helps with the removal.
 
 <figure><img src="https://raw.githubusercontent.com/alextongue/alextongue.github.io/master/workbench/resources/mazzer/strip1.jpg" width="800"></figure>
 
