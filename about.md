@@ -22,7 +22,7 @@ Here is my <b><a href="https://www.dropbox.com/s/cox3wb9pejkftzy/Alex_Tung_Resum
 
 <figure>
     <img src="https://github.com/alextongue/alextongue.github.io/blob/master/workbench/resources/sphere.jpg?raw=true">
-    <figcaption>Snuck into a marketing photoshoot at work because they like to use our labs for their photos. Here's me looking serious. I was probably wondering if the photographers and models were interested in hearing about the spherical t-design that informed our speaker layout.</figcaption>
+    <figcaption>Snuck into a marketing photoshoot at work because they like to use our labs for their photos. Here's me looking serious. I was probably wondering if the photographers and models were interested in hearing about spherical t-designs and the discrete solutions of the wave equation.</figcaption>
 </figure>
 
 <figure>
