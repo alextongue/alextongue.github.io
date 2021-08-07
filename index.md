@@ -3,10 +3,6 @@ custom_title: true
 show_search: false
 ---
 
-<center>
-  <h1>Welcome</h1>
-</center>
-
 <div class="gallery">
 <center>
 <div class="gallery-wrap">
