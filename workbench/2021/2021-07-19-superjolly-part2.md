@@ -19,7 +19,9 @@ As many other reviewers have said, I would also recommend not to shy away from l
 
 <figure><img src="https://raw.githubusercontent.com/alextongue/alextongue.github.io/master/workbench/resources/mazzer/strip3.jpg" width="800"></figure>
 
-I finally was able to get down to the bare metal, which I had sanded with a bit of 220 and 400 grit sandpaper. Next step: priming!
+I finally was able to get down to the bare metal, which I had sanded with a bit of 220 and 400 grit sandpaper. Also, I had removed the "CAUTION" plate above the switch by drilling out the rivets. I also removed the Astoria badge, the Mazzer sticker, and the small metal disc behind the timer-switch knob so that I could strip and repaint the surfaces underneath.
+
+Next step: priming!
 
 <figure><img src="https://raw.githubusercontent.com/alextongue/alextongue.github.io/master/workbench/resources/mazzer/baremetal.jpg" width="800"></figure>
 
@@ -29,7 +31,8 @@ I decided to use two types of primer:
 
 <figure>
     <img src="https://raw.githubusercontent.com/alextongue/alextongue.github.io/master/workbench/resources/mazzer/etchprime1.jpg" width="800">
-    <figcaption>First coat of etching primer. The incandescent work lamp and the background tarp had messed with the white balance a little. There is indeed a greenish tint to the grey etching primer, but it's not as warm as what it looks. Also, note that I had removed the "CAUTION" plate above the switch by drilling out the rivets. I also removed the Astoria badge, the Mazzer sticker, and the small metal disc behind the timer-switch knob so that I could stripand repaint the surfaces underneath. </figcaption>
+    <figcaption>First coat of etching primer. The incandescent work lamp and the background tarp had messed with the white balance a little. There is indeed a greenish tint to the grey etching primer, but it's not as warm as what it looks. Note the removed CAUTION and switch plates.
+     </figcaption>
 </figure>
 
 <figure>
