@@ -13,7 +13,7 @@ I also like buying and restoring old audio equipment. You can find that in <a hr
 
 When I'm not blasting my ears out with sine sweeps, I like to play guitar and enjoy specialty coffee. If my journey in coffee tasting develops more, maybe I'll add that as a section on this site as well.
 
-Here is my <b><a href="https://www.dropbox.com/s/wwiro5y0bjgg4fc/Alex_Tung_Resume_FA19_nb.pdf?dl=0">resume</a></b>.
+Here is my <b><a href="https://www.dropbox.com/s/cox3wb9pejkftzy/Alex_Tung_Resume_2021_nb.pdf?dl=0">resume</a></b>.
 
 <figure>
 <img src="https://github.com/alextongue/alextongue.github.io/blob/master/workbench/resources/krpt.JPG?raw=true">
