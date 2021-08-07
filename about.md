@@ -16,16 +16,16 @@ When I'm not blasting my ears out with sine sweeps, I like to play guitar and en
 Here is my <b><a href="https://www.dropbox.com/s/cox3wb9pejkftzy/Alex_Tung_Resume_2021_nb.pdf?dl=0">resume</a></b>.
 
 <figure>
-<img src="https://github.com/alextongue/alextongue.github.io/blob/master/workbench/resources/sphere.JPG?raw=true">
-<figcaption>I got to sneak into a marketing photoshoot at work because they like to use our labs for their photos. Here's me looking serious. I was probably wondering if the photographers and models were interested in hearing about the spherical t-design that informed our speaker layout.</figcaption>
-</figure>
-
-<figure>
     <img src="https://github.com/alextongue/alextongue.github.io/blob/master/workbench/resources/krpt.JPG?raw=true">
-    <figcaption>I'm in the top row, third from the right! I recently had the privilege of playing on two minor music videos! You can watch them <a href="https://www.youtube.com/watch?v=gpHsjl9bWs0">here</a> and <a href="https://www.youtube.com/watch?v=QfH5pGiZTA0">here</a>.</figcaption>
+    <figcaption>I recently had the privilege of playing on two minor music videos! You can watch them <a href="https://www.youtube.com/watch?v=gpHsjl9bWs0">here</a> and <a href="https://www.youtube.com/watch?v=QfH5pGiZTA0">here</a>.</figcaption>
 </figure>
 
 <figure>
-<img src="https://github.com/alextongue/alextongue.github.io/blob/master/workbench/resources/cpmc_ambi.JPG?raw=true">
-<figcaption>Helping out my buddy Gabriel (behind the camera) for a spatial audio performance involving the IEM Ambisonic plugins from TU Graz. We were able to see this deployed on a Meyer Constellation system in the experimental theatre downstairs.</figcaption>
+    <img src="https://github.com/alextongue/alextongue.github.io/blob/master/workbench/resources/sphere.jpg?raw=true">
+    <figcaption>Snuck into a marketing photoshoot at work because they like to use our labs for their photos. Here's me looking serious. I was probably wondering if the photographers and models were interested in hearing about the spherical t-design that informed our speaker layout.</figcaption>
+</figure>
+
+<figure>
+    <img src="https://github.com/alextongue/alextongue.github.io/blob/master/workbench/resources/cpmc_ambi.jpg?raw=true">
+    <figcaption>Helping out my buddy Gabriel (behind the camera) for a spatial audio performance involving the IEM Ambisonic plugins from TU Graz. We were able to see this deployed on a Meyer Constellation system in the experimental theatre downstairs.</figcaption>
 </figure>
