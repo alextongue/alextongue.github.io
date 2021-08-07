@@ -19,13 +19,19 @@ The good thing about buying coffee grinders is that they are remarkably simple i
 
 When buying a used grinder, the most important part to check for functionality is the motor. If the motor is burnt out, then it's usually very hard to replace it, as the motors are usually made in custom form factors in batches for the grinder manufacturers. For Mazzer grinders, the motor is hammered into a cast aluminum case, which makes it impossible to pull out and push in a new one with regular garage tools. After taking the switch out of the circuit, the motor ran like a charm.
 
-<figure><img src="https://raw.githubusercontent.com/alextongue/alextongue.github.io/master/workbench/resources/mazzer/spinning.jpg" width="800"></figure>
+<figure>
+    <img src="https://raw.githubusercontent.com/alextongue/alextongue.github.io/master/workbench/resources/mazzer/spinning.jpg" width="800"></figure>
 
 I gave the grinder an initial clean and things started looking a little better.
 
 <figure><img src="https://raw.githubusercontent.com/alextongue/alextongue.github.io/master/workbench/resources/mazzer/secondlook.jpg" width="800"></figure>
 
 <figure><img src="https://raw.githubusercontent.com/alextongue/alextongue.github.io/master/workbench/resources/mazzer/astoria.jpg" width="800"></figure>
+
+<figure>
+<img src="https://raw.githubusercontent.com/alextongue/alextongue.github.io/master/workbench/resources/mazzer/mazzerlabel.jpg" width="800">
+    <figcaption>It is indeed a Mazzer!</figcaption>
+</figure>
 
 I also boiled the metal parts in citric acid, which may have been a mistake, as many of the steel parts started oxidizing...
 

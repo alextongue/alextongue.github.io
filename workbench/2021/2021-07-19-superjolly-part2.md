@@ -19,17 +19,17 @@ As many other reviewers have said, I would also recommend not to shy away from l
 
 <figure><img src="https://raw.githubusercontent.com/alextongue/alextongue.github.io/master/workbench/resources/mazzer/strip3.jpg" width="800"></figure>
 
-I finally was able to get down to the bare metal. Next step: priming!
+I finally was able to get down to the bare metal, which I had sanded with a bit of 220 and 400 grit sandpaper. Next step: priming!
 
 <figure><img src="https://raw.githubusercontent.com/alextongue/alextongue.github.io/master/workbench/resources/mazzer/baremetal.jpg" width="800"></figure>
 
 I decided to use two types of primer:
-- First, a metal-etching primer to prepare the aluminum surface. I made 2-3 overlapping coats of different upright angles and one with the grinder on its side (to cover the bottom). Between coats, I would wait a day and lightly sand the primer with #400 sandpaper, vacuum, brush, and wipe, and pass over with tackcloth.
-- Second, two coats of filler primer. This is to fill the imperfections introduced during the aluminum casting process and the several deep nicks and gouges from its use over the years.
+- **First**, a metal-etching primer to prepare the aluminum surface. I made 2-3 overlapping coats of different upright angles and one with the grinder on its side (to cover the bottom). Between coats, I would wait a day and lightly sand the primer with #400 sandpaper, vacuum, brush, and wipe, and pass over with tackcloth.
+- **Second**, two coats of filler primer. This is to fill the imperfections introduced during the aluminum casting process and the several deep nicks and gouges from its use over the years.
 
 <figure>
     <img src="https://raw.githubusercontent.com/alextongue/alextongue.github.io/master/workbench/resources/mazzer/etchprime1.jpg" width="800">
-    <figcaption>First coat of etching primer. The incandescent work lamp and the background tarp had messed with the white balance a little. There is indeed a greenish tint to the grey etching primer, but it's not as warm as what it looks.</figcaption>
+    <figcaption>First coat of etching primer. The incandescent work lamp and the background tarp had messed with the white balance a little. There is indeed a greenish tint to the grey etching primer, but it's not as warm as what it looks. Also, note that I had removed the "CAUTION" plate above the switch by drilling out the rivets. I also removed the Astoria badge, the Mazzer sticker, and the small metal disc behind the timer-switch knob so that I could stripand repaint the surfaces underneath. </figcaption>
 </figure>
 
 <figure>
